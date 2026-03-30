@@ -1,0 +1,48 @@
+2026-03-30T09:03:11.351Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T09:03:11.357Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "projectPath": "c:\\Users\\Sebas\\Desktop\\CUC\\JAVA\\Servlets",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded"
+}}).
+2026-03-30T09:03:11.362Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T09:03:11.375Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260330090311,\nSession Dir: c:\\Users\\Sebas\\Desktop\\CUC\\JAVA\\Servlets\\.github\\java-upgrade\\20260330090311"
+}}).
+2026-03-30T09:03:11.383Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T09:03:23.981Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-03-30T09:03:23.990Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260330090311"
+}}).
+2026-03-30T09:03:23.998Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T09:03:24.008Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-03-30T09:03:24.017Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-03-30T09:03:24.104Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-03-30T09:03:24.111Z [INFO] [Tool.invoke]({name: appmod-list-jdks, input: {
+  "sessionId": "20260330090311"
+}}).
+2026-03-30T09:03:24.119Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T09:03:24.598Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 1.8.0_482\n   📁 Path: C:\\Program Files\\RedHat\\java-1.8.0-openjdk-1.8.0.482-1\\bin\n   🏷️ Source: PATH\n\n2. Java 21.0.8\n   📁 Path: C:\\Users\\Sebas\\.jdk\\jdk-21\\jdk-21.0.8\\bin\n   🏷️ Source: install\n\nTotal: 2 JDK installation(s) found"
+}}).
+2026-03-30T09:03:24.607Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-03-30T09:03:26.485Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-03-30T09:03:26.493Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260330090311"
+}}).
+2026-03-30T09:03:26.500Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T09:03:26.507Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-03-30T09:03:26.515Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-03-30T09:03:26.609Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-03-30T09:03:26.619Z [INFO] [Tool.invoke]({name: appmod-list-mavens, input: {
+  "sessionId": "20260330090311"
+}}).
+2026-03-30T09:03:26.627Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T09:03:26.657Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. 📁 Path: C:\\Users\\Sebas\\.maven\\maven-3.9.14\\bin\n   🏷️ Source: install\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-03-30T09:03:26.667Z [INFO] ----------------------invoked appmod-list-mavens----------------------
